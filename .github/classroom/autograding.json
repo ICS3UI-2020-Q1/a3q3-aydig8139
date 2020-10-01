@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Sample 1",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "B",
+      "output": "Please enter a letter grade\r\nThis is between 70% and 79%",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Sample 2",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "F",
+      "output": "Please enter a letter grade\r\nThis is between 0% and 49%",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    }
+  ]
+}
